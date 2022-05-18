@@ -1,6 +1,6 @@
 # About
 Nethya is an advanced AI chatbot that 
-has the ability to Multiple language, contextualize messages, and respond in kind. She will adapt to conversations with multiple users; roleplaying, consolidating, arguing, and having fun, bringing a lot of personality and a unique sense of humor~ Kuki is designed to be the chatbot/friend you want her to be!
+has the ability to Multiple language, contextualize messages, and respond in kind. She will adapt to conversations with multiple users; roleplaying, consolidating, arguing, and having fun, bringing a lot of personality and a unique sense of humor~ Nethya is designed to be the chatbot/friend you want her to be!
 ## How To Host
 The easiest way to deploy this Bot
 • Enter your ```MONGO_URL```,```API_ID```,```API_HASH``` And ```TOKEN```.
