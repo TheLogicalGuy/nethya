@@ -183,7 +183,8 @@ async def start(client, message):
         
     else:
        
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/Unstoppable_talkers"),
+        buttons = [[InlineKeyboardButton("Support-1", url="https://t.me/Unstoppable_talkers"),
+                    InlineKeyboardButton("Support-2", url="https://t.me/AwesomeSupport"),
                     InlineKeyboardButton("Channel", url="https://t.me/updatesofficiall1"),
                     InlineKeyboardButton("Add", url="t.me/nethyabot?startgroup=true")
                     ]]
