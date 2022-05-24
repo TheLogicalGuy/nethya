@@ -225,7 +225,7 @@ async def help(client, message):
         await message.reply('''Hallo😂 hru? 
         Can you defeat me in chatting😏?''')
         
-       @bot.on_message(filters.command(["ii"], prefixes=["H"]))
+       @bot.on_message(filters.command(["Hii"]))
 async def help(client, message):
     self = await bot.get_me()
     busername = self.username
@@ -234,7 +234,7 @@ async def help(client, message):
         await message.reply('''Hallo😂 hru? 
         Can you defeat me in chatting😏?''')
         
-        @bot.on_message(filters.command(["allo"], prefixes=["H"]))
+        @bot.on_message(filters.command(["Hallo"]))
 async def help(client, message):
     self = await bot.get_me()
     busername = self.username
