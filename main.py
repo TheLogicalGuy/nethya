@@ -183,7 +183,7 @@ async def start(client, message):
         
     else:
        
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/Unstoppable_talkers"),
+        buttons = [[InlineKeyboardButton("Support", url="https://t.me/AwesomeSupport"),
                     InlineKeyboardButton("Channel", url="https://t.me/updatesofficiall1"),
                     InlineKeyboardButton("Add", url="t.me/nethyabot?startgroup=true")
                     ]]
@@ -225,24 +225,6 @@ async def help(client, message):
         await message.reply('''Hallo😂 hru? 
         Can you defeat me in chatting😏?''')
         
-       @bot.on_message(filters.command(["Hii"]))
-async def help(client, message):
-    self = await bot.get_me()
-    busername = self.username
-    if message.chat.type != "private":
-        
-        await message.reply('''Hallo😂 hru? 
-        Can you defeat me in chatting😏?''')
-        
-        @bot.on_message(filters.command(["Hallo"]))
-async def help(client, message):
-    self = await bot.get_me()
-    busername = self.username
-    if message.chat.type != "private":
-        
-        await message.reply('''Hallo😂 hru? 
-        Can you defeat me in chatting😏?''')
-
-
+  
 
 bot.run()
