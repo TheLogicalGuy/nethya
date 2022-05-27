@@ -227,7 +227,7 @@ async def help(client, message):
         await message.reply('''Hallo😂 hru? 
         Can you defeat me in chatting😏?''')
         
-        @bot.on_message(filters.command(["nethyabot"], prefixes=["@"]))
+@bot.on_message(filters.command(["nethyabot"], prefixes=["@"]))
 async def help(client, message):
     self = await bot.get_me()
     busername = self.username
