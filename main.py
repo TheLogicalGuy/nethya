@@ -227,13 +227,19 @@ async def help(client, message):
         await message.reply('''Hallo😂 hru? 
         Can you defeat me in chatting😏?''')
         
+        @bot.on_message(filters.command(["nethyabot"], prefixes=["@"]))
+async def help(client, message):
+    self = await bot.get_me()
+    busername = self.username
+    if message.chat.type != "private":
+        
+        await message.reply('''Hallo😂 hru?
+        Can you defeat me in chatting😏?''')
+        
   
 
 
-@dp.message_handler(F.from_user.id.in_({42, 1000, 123123})) # 42, 1000, 123123 users id
-async def message_sender(message: types.Hallo):
-    await message.answer(text='''Hallo😂 hru? 
-        Can you defeat me in chatting😏?''')
+
 
 
 bot.run()
