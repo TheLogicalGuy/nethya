@@ -40,7 +40,7 @@
             "description": "Support group username without @",
             "required": true
              "value": "Awesomesupport"
-        }
+        },
     
     "addons": [
         {
