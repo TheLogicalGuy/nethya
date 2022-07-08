@@ -1,15 +1,15 @@
 {
-    "name": "NethyaChatBot",
-    "description": "Hello, I am Nethya An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
-    "logo": "https://telegra.ph/file/23932e22ece464a1fb06e.jpg",
-    "repository": "https://github.com/TheLogicalGuy/nethya",
+    "name": "KukiChatBot",
+    "description": "Hello, I am KUKI An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
+    "logo": "https://telegra.ph/file/a54ed27b0dc3fc3e439fd.jpg",
+    "repository": "https://github.com/MoeZilla/kukichatbot",
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
             "required": true
         },
         "KUKI_API": {
-            "description": "go to @Kukichatbot and then send /token you will get a api paste it here ",
+            "description": "join @metavoidsupport",
             "required": true
         },
         "ERROR_LOG": {
@@ -27,18 +27,7 @@
         "API_HASH": {
             "description": "telegram api hash here",
             "required": true
-            "value": ""       
-        },
-        "BOT_USERNAME": {
-            "description": "Your Chatbot username without @",
-            "required": true
-            "value": "nethyabot"     
-        },
-        "SUPPORT_GROUP": {
-            "description": "Support group username without @",
-            "required": true
-             "value": "Awesomesupport"
-       }
+        }
     },
     "addons": [
         {
@@ -46,4 +35,3 @@
         }
     ]
 }
-
