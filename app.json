@@ -41,7 +41,7 @@
             "required": true
              "value": "Awesomesupport"
         }
-    },
+    
     "addons": [
         {
             "plan": "heroku-postgresql"
