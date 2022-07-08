@@ -23,7 +23,7 @@
 		"SUPPORT_GROUP": {
             "description": "Support group username without @",
             "required": true
-            "value": "awesomesupport"
+            
         },
         "MONGO_URL": {
             "description": "mongo db url here",
