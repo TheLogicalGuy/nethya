@@ -1,0 +1,46 @@
+{
+    "name": "NethyaChatBot",
+    "description": "Hello, I am Nethya An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
+    "logo": "https://te.legra.ph/file/2fee644b6a1e7f5dae648.jpg",
+    "repository": "https://github.com/TheLogicalGuy/nethya",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "KUKI_API": {
+            "description": "go to @Kukichatbot and then send /token you will get a api paste it here ",
+            "required": true
+        },
+        "ERROR_LOG": {
+            "description": "error channel log id",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Your bot username without @",
+            "required": true
+        },
+		"SUPPORT_GROUP": {
+            "description": "Support group username without @",
+            "required": true
+            "value": "awesomesupport"
+        },
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
