@@ -28,13 +28,13 @@
             "description": "telegram api hash here",
             "required": true
             "value": ""
-        }
+       
         },
         "BOT_USERNAME": {
             "description": "Your Chatbot username without @",
             "required": true
             "value": "nethyabot"
-        }
+     
         },
         "SUPPORT_GROUP": {
             "description": "Support group username without @",
